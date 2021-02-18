@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.main-title {
+  font-size: 3.6rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.main-description {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.4rem;
+  max-width: 43rem;
+  text-align: center;
+  padding: 1rem 0rem 4rem 0rem;
+  line-height: 2.4rem;
+}

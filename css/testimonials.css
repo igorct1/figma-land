@@ -1,0 +1,70 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+.testimonials h2 {
+  font-size: 3.6rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 6rem 0rem;
+}
+.testimonials-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100rem;
+  margin: 0 auto;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem;
+}
+.testimonials-item {
+  flex: 1 0 60rem;
+  border: 0.5px solid #fff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 4rem;
+  border-radius: 1rem;
+  max-width: 43rem;
+}
+.testimonials-item-title {
+  display: flex;
+}
+.testimonials-item-title h3 {
+  padding-left: 2rem;
+  font-size: 1.6rem;
+  max-width: 18rem;
+}
+.testimonials-item p {
+  max-width: 30rem;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  line-height: 2.4rem;
+  padding-top: 3rem;
+}
+.testimonials-item:nth-child(4) {
+  margin-top: -2rem;
+}
+@media (max-width: 960px) {
+  .testimonials-item {
+    flex: 1 0 30rem;
+  }
+}
+@media (max-width: 660px) {
+  .testimonials-item:nth-child(4) {
+    margin-top: 0rem;
+  }
+}
+@media (max-width: 500px) {
+  .testimonials-item {
+    flex: 1 0 30rem;
+    margin: 0rem 6rem;
+  }
+  .testimonials-item p {
+    font-size: 1.2rem;
+  }
+}

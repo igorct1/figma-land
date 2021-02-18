@@ -1,0 +1,80 @@
+.lightning {
+  padding: 18rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+.lightning-container {
+  display: flex;
+  background: #343434;
+  max-width: 120rem;
+  margin: 0 6rem;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+}
+.lightning-container h1 {
+  font-size: 3.8rem;
+  font-weight: normal;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  max-width: 50rem;
+}
+.lightning-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 30rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+}
+.lightning-img {
+  padding-left: 4rem;
+  flex: 1 0 25rem;
+}
+.lightning-title button {
+  padding: 1.5rem 4rem;
+  max-width: 20rem;
+  margin-top: 2rem;
+  color: #fff;
+  background: #000;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+@media (max-width: 1044px) {
+  .lightning {
+    padding: 16rem 0rem 8rem 0rem;
+  }
+  .lightning-container {
+    border-radius: 0px;
+    justify-content: center;
+  }
+  .lightning-title {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .lightning-container {
+    flex-direction: column;
+    background: transparent;
+  }
+  .lightning-img {
+    padding-left: 0px;
+    flex: 1;
+  }
+}
+
+@media (max-width: 500px) {
+  .lightning-container {
+    margin: 0rem 4rem;
+  }
+  .lightning-title {
+    padding: 0px;
+    margin-bottom: 0rem;
+  }
+}

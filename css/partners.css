@@ -1,0 +1,40 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16rem 0rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.partners-icons {
+  display: flex;
+  gap: 7.5rem;
+  flex-wrap: wrap;
+  padding: 2rem 6rem;
+}
+.partners button {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(24, 24, 24, 1);
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1.5rem 4rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 6rem;
+}
+@media (max-width: 970px) {
+  .partners p {
+    max-width: 22rem;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  .partners-icons {
+    gap: 4rem;
+    padding: 0rem 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .partners-icons img {
+    max-width: 6rem;
+  }
+}

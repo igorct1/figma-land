@@ -1,0 +1,145 @@
+#header {
+  background-color: rgba(14, 14, 24, 1);
+  padding: 2rem 0rem;
+}
+.container {
+  max-width: 120rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 4rem;
+  flex-wrap: wrap;
+}
+
+.header-menu {
+  display: flex;
+  list-style: none;
+}
+
+.header-menu li a {
+  text-decoration: none;
+  padding: 1.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header-btn {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(24, 24, 24, 1);
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+.header-btn:hover {
+  opacity: 0.7;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-text-title {
+  max-width: 50rem;
+}
+.header-text-title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.8rem;
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem 0rem 2rem;
+}
+.header-text-title p {
+  font-size: 1.4rem;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  line-height: 2.6rem;
+  margin: 2rem 0rem 8rem 0rem;
+}
+.header-text-buttons button {
+  padding: 1.5rem 4rem;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.header-text-buttons button:hover {
+  opacity: 0.7;
+}
+.tryforfree {
+  background-color: #4452fe;
+  border: 1px solid #4452fe;
+}
+.learnmore {
+  background: transparent;
+  border: 1px solid #fff;
+  margin-left: 2rem;
+}
+.header-mockup-img {
+  padding: 4rem 0rem 6rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+.menu-mobile {
+  display: none;
+}
+@media (max-width: 800px) {
+  .header-menu {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+    padding: 0rem 2rem;
+  }
+  .menu-mobile img {
+    max-width: 3.5rem;
+  }
+  .container {
+    padding: 0rem 2rem;
+  }
+}
+@media (max-width: 480px) {
+  #logo {
+    max-width: 17rem;
+  }
+  .header-btn {
+    width: 10rem;
+    padding: 1rem 3rem;
+  }
+
+  .header-text-title h1 {
+    font-size: 4.2rem;
+    text-align: center;
+    padding: 6rem 2rem 0rem 2rem;
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  .header-text-title p {
+    font-size: 1.4rem;
+    padding: 0rem 2rem;
+    max-width: 35rem;
+    text-align: center;
+  }
+  .header-text-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .learnmore {
+    margin: 1rem 0rem 0rem 0rem;
+  }
+}
+@media (max-width: 400px) {
+  #logo {
+    max-width: 14rem;
+  }
+  .header-btn {
+    padding: 1rem;
+  }
+}
