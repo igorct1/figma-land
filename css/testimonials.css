@@ -61,8 +61,8 @@
 }
 @media (max-width: 500px) {
   .testimonials-item {
-    flex: 1 0 30rem;
-    margin: 0rem 6rem;
+    flex: 1 0 20rem;
+    margin: 0rem;
   }
   .testimonials-item p {
     font-size: 1.2rem;
