@@ -67,9 +67,12 @@ main {
 }
 
 @media (max-width: 800px) {
+  .features {
+    padding: 6rem 0rem;
+  }
   .features-text p {
     font-size: 1.4rem;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem 4rem 2rem;
     max-width: 37rem;
     text-align: center;
   }

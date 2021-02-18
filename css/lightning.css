@@ -59,6 +59,9 @@
 }
 
 @media (max-width: 900px) {
+  .lightning {
+    padding: 4rem 0rem;
+  }
   .lightning-container {
     flex-direction: column;
     background: transparent;

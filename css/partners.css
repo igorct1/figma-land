@@ -24,6 +24,9 @@
   margin-top: 6rem;
 }
 @media (max-width: 970px) {
+  .partners {
+    padding: 12rem 2rem 6rem 2rem;
+  }
   .partners p {
     max-width: 22rem;
     padding: 2rem 2rem 4rem 2rem;

@@ -45,6 +45,9 @@
 @media (max-width: 1029px) {
 }
 @media (max-width: 800px) {
+  .gallery {
+    padding-top: 8rem;
+  }
   .gallery p {
     padding: 2rem 4rem;
     max-width: 33rem;
